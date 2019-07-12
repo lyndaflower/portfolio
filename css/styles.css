@@ -1,0 +1,42 @@
+body{
+    font-size : 20px;
+    font-family: inherit;
+    background-image : url("https://www.osha.gov/preventingsuicides/images/PreventingSuicideBG.jpg");
+    background-repeat: no-repeat;
+    background-size : cover;
+  }
+  .topnav{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  nav{
+    max-width: 960%;
+    margin: 0 auto;
+    margin-right: 0%;
+  }
+  nav>ul{
+    text-align: right;
+    background-color: #1A5276;
+  }
+    nav>ul>li{
+      display: inline-block;
+    }
+    nav>ul>li>a{
+      float: right;
+      padding: 10px;
+      color: white;
+      display: block;
+      text-transform: uppercase;
+      text-decoration : none;
+  }
+  nav>ul>li>a:hover{
+    background-color: white;
+    color: #034f84;
+  }
+  .topnav a.active{
+    background-color: white;
+    color: #034f84;
+  }
