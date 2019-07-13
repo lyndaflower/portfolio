@@ -1,2 +1,36 @@
-
+.topnav{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+nav{
+  max-width: 960%;
+  margin: 0 auto;
+  margin-right: 0%;
+}
+nav>ul{
+  text-align: right;
+  background-color: rgb(13, 14, 13);
+}
+  nav>ul>li{
+    display: inline-block;
+  }
+  nav>ul>li>a{
+    float: left;
+    padding: 10px;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    text-decoration : none;
+}
+nav>ul>li>a:hover{
+  background-color: rgb(104, 68, 21);
+  color: white;
+}
+.topnav a.active{
+  background-color: black;
+  color: black;
+}
     
