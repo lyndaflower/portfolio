@@ -19,7 +19,7 @@ nav>ul{
   }
   nav>ul>li>a{
     float: left;
-    padding: 10px;
+    text-align: center  padding: 10px;
     color: white;
     display: block;
     text-transform: uppercase;
@@ -37,6 +37,9 @@ body {
   background-image : url("http://www.websitebuilderpoint.net/wp-content/uploads/2015/06/portfolio.png");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: fantasy;
+  font-style: italic;
+  font-weight: 500;
 }
 table,td,th{
   padding: 5px;
@@ -45,14 +48,19 @@ table,td,th{
 }
 table{
   width: 700px;
+  text-align: center;
 }
 th{
-  background-color : grey;
+  background-color: darkolivegreen;
   color: white;
 }
-#about {
-background-color: darkgrey;
-float: left;
-padding: 10px;
+h2 {
+text-align: center;
+padding-left: 600px
+
 }
-    
+#about {
+  text-align: center;
+float: right;
+padding: 10px; 
+}
