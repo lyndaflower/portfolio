@@ -1,5 +1,5 @@
 .topnav{
-  position: relative;
+  position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
@@ -16,10 +16,11 @@ nav>ul{
 }
   nav>ul>li{
     display: inline-block;
+    background-color: black;
   }
   nav>ul>li>a{
     float: left;
-    text-align: center  padding: 10px;
+    padding: 10px;
     color: white;
     display: block;
     text-transform: uppercase;
@@ -33,13 +34,16 @@ nav>ul>li>a:hover{
   background-color: black;
   color: black;
 }
-body {
-  background-image : url("http://www.websitebuilderpoint.net/wp-content/uploads/2015/06/portfolio.png");
+#home{
+  background-image: url("https://assets.skyfilabs.com/images/blog/how-to-select-a-good-mini-project.jpg");
+  height : 500px;
+  border-right-width: thin;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: fantasy;
-  font-style: italic;
-  font-weight: 500;
+  font-family: monospace;
+}
+p{
+  display : inline;
 }
 table,td,th{
   padding: 5px;
@@ -56,11 +60,21 @@ th{
 }
 h2 {
 text-align: center;
-padding-left: 600px
 
 }
 #about {
   text-align: center;
 float: right;
 padding: 10px; 
+}
+#home {
+  flex: display;
+}
+#profile{
+  width : 200px;
+  height : 300px;
+  
+}
+#two{
+  list-style-type:none;
 }
