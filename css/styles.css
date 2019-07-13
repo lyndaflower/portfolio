@@ -33,4 +33,26 @@ nav>ul>li>a:hover{
   background-color: black;
   color: black;
 }
+body {
+  background-image : url("http://www.websitebuilderpoint.net/wp-content/uploads/2015/06/portfolio.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+table,td,th{
+  padding: 5px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table{
+  width: 700px;
+}
+th{
+  background-color : grey;
+  color: white;
+}
+#about {
+background-color: darkgrey;
+float: left;
+padding: 10px;
+}
     
