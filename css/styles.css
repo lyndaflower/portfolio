@@ -1,3 +1,15 @@
+body {
+  background-image: url("http://stefanoamato.com/wp-content/uploads/2019/01/printed-washed-out-gray-wood-floor-backdrop-6387-outlet-for-hardwood-prepare-9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
 .topnav{
   position: absolute;
   top: 0;
@@ -35,16 +47,22 @@ nav>ul>li>a:hover{
   color: black;
 }
 #home{
-  background-color: coral;
-  height : 500px;
+  background-image : url "https://images.pexels.com/photos/2098427/pexels-photo-2098427.jpeg";
+  height : 700px;
   border-right-width: thin;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: monospace;
-  font-weight: 600px;
+  color :
 }
-p{
-  display : inline;
+#profile{
+  width : 300px;
+  height :300px;
+  padding-block-start: 50px;
+  border-radius: 50%;
+  
+}
+h1 ,p{
+  padding-left: 100px
 }
 table,td,th{
   padding: 5px;
@@ -59,29 +77,44 @@ th{
   background-color: darkolivegreen;
   color: white;
 }
-h2 {
-text-align: center;
-
+#tab {
+  padding-left: 200px;
 }
-#about {
-  text-align: center;
-float: right;
-padding: 10px; 
+h2 {
+  padding-left: 200px;
 }
 #home {
   flex: display;
 }
-#profile{
-  width : 200px;
-  height : 300px;
-  
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
 }
-#two{
-  list-style-type:none;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 900px) {
+  .column  {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column  {
+    width: 100%;
+  }
+}
+#main {
+  padding-block-start: 80px;
+  padding-block-end: 90px;
+  padding-left: 200px;
 }
 #contact {
-  background-image: url;
+  background-image: url("https://images.pexels.com/photos/955081/pexels-photo-955081.jpeg");
   height : 400px;
+  text-align: center
 }
 #list{
   background-color : gray;
@@ -109,4 +142,19 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color:#034f84 ;
+}
+
+.contact {
+  border-radius: 20px;
+  background-color:blue ;
+  padding: 200px;
+}
+#three {
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-block-start: 100px;
+  padding-block-end: 100px;
+  background-image : url("https://chesamel.com/wp-content/uploads/2018/06/web-design-for-beginners-how-to-code-using-html-css-600x338.jpg");
+  background-size : relative;
+  color : white;
 }
